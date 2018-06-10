@@ -1,73 +1,146 @@
-<HTML>
+<!DOCTYPE HTML>
+<!--
+	Big Picture by HTML5 UP
+	html5up.net | @ajlkn
+	HTML template provided by HTML5 UP
+-->
+<html>
 	<head>
-		<meta charset="utf-8">
 		<title>A site about AJ</title>
-		<script defer src="https://use.fontawesome.com/releases/v5.0.6/js/all.js"></script>
-        <link rel="stylesheet" type="text/css" href="Web_Content/Styles/aj_website_style.css" >
-        <link rel="stylesheet" type="text/css" href="Web_Content/Styles/bootstrap.min.css">
-		<link href="https://fonts.googleapis.com/css?family=Josefin+Sans:700" rel="stylesheet">
-
-    </head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<!--[if lte IE 8]><link rel="stylesheet" href="assets/css/ie8.css" /><![endif]-->
+		<!--[if lte IE 9]><link rel="stylesheet" href="assets/css/ie9.css" /><![endif]-->
+	</head>
 	<body>
-	
-	<header id="top" class="header">
-		<div class="text-vertical-right">
-			<h1>Arthur Jerome Collard</h1>
-			<h3>Just call me A.J.</h3>
-		</div>
-		<div class="col-lg-12 text-center">
-			<a id="resume_button" href="Resume.html"><button type="button" class="btn btn-dark btn-lg ">My Resume</button></a>
-		</div>
-	</header>
-		<section id="about" class="about">
-			<div class ="container">
-				<div class="row">
-					<div class="col-lg-12 text-center">
-						<h3>About Me<hr></h3>
-						<p class="lead">"I was born in Florida, but I have lived my whole
-						life in Georgia. My parents moved our family to Georgia so that I
-						could reap the benefits of the good school systems. This has been a
-						key influence in my life. Through the years I have had many varying 
-						interests, but my passion for learning new things has never faded. 
-						I have been expanding my knowledge in the Terry College of Business 
-						and the Franklin College of arts, and I am ready to marry my knowledge 
-						of programming and business at an innovative firm."</p>
-					</div>
-					<div class="col-lg-12 text-center">
-						<div class="College_banners">
-								<div class="col-lg-6"><img class="terry" src="../img/terry_college_logo.png"></div>
-								<div class="col-lg-6"><img class="franklin" src="../img/franklin_logo.png"></div>
+
+		<!-- Header -->
+			<header id="header">
+				<h1>Arthur Jerome Collard</h1>
+				<nav>
+					<ul>
+						<li><a href="#intro">Intro</a></li>
+						<li><a href="#one">What I Do</a></li>
+						<li><a href="#two">Who I Am</a></li>
+						<li><a href="#work">My Work</a></li>
+						<li><a href="#contact">Contact</a></li>
+						<li><a href="">Resume</a></li>
+					</ul>
+				</nav>
+			</header>
+
+		<!-- Intro -->
+			<section id="intro" class="main style1 dark fullscreen">
+				<div class="content">
+					<header>
+						<h2>Call me A.J.</h2>
+					</header>
+					<footer>
+						<a href="#one" class="button style2 down">More</a>
+					</footer>
+				</div>
+			</section>
+
+		<!-- One -->
+			<section id="one" class="main style2 right dark fullscreen">
+				<div class="content box style2">
+					<header>
+						<h2>What I Do</h2>
+					</header>
+					<p>I love to program. It provides me an understanding of the applications that I love to use 
+					as well as a way for me to create my own. When I was a little kid I was always breaking toys in 
+					the name of research and building toys of my own. Now I am still doing the same thing, but I use code 
+					to do it.</p>
+				</div>
+				<a href="#two" class="button style2 down anchored">Next</a>
+			</section>
+
+		<!-- Two -->
+			<section id="two" class="main style2 left dark fullscreen">
+				<div class="content box style2">
+					<header>
+						<h2>Who I Am</h2>
+					</header>
+					<p>I am a driven problem solver. I have challenged myself to think and learn in both creative and 
+					analytical environments so that I can provide comprehensive and insightful solutions.</p>
+				</div>
+				<a href="#work" class="button style2 down anchored">Next</a>
+			</section>
+
+		<!-- Work -->
+			<section id="work" class="main style3 primary">
+				<div class="content">
+					<header>
+						<h2>My Work</h2>
+						<p>I have experience coding in a number of differenet languages, using many packages and frameworks. Below I have included some screenshots of 
+						applications that I have worked on and some code snipptes from my work.</p>
+					</header>
+
+					<!-- Gallery  -->
+						<div class="gallery">
+							<article class="from-left">
+								<a href="images/code/LOL_coach_UI.png" class="image fit"><img src="images/code/LOL_coach_UI.png" title="Index Page - CSCI 4300 Term Project" alt="" /></a>		
+							</article>
+							<article class="from-right">
+								<a href="images/code/Data_pop_code.jpg" class="image fit"><img src="images/code/Data_pop_code.jpg" height="260" title="Twitter Data Collection - CSCI 4370 Term Project" alt="" /></a>	
+							</article>
+							<article class="from-left">
+								<a href="images/code/DB_final.jpg" class="image fit"><img src="images/code/DB_final.jpg" title="Twitter Database Design - CSCI 4370 Term Project" alt="" /></a>	
+							</article>
+							<article class="from-right">
+								<a href="images/code/1730.png" class="image fit"><img src="images/code/1730.png" title="Reimplemented system functions on Linux - CSCI 1730" alt="" /></a>
+							</article>
+							<article class="from-left">
+								<a href="images/code/cal.png" class="image fit"><img src="images/code/cal.png" title="Implementation of cal function in C++ - CSCI 1730" alt="" /></a>
+							</article>
+							<article class="from-right">
+								<a href="images/code/2720.png" class="image fit"><img src="images/code/2720.png" title="Implementation of a SortedList in C++ - CSCI 2720" alt="" /></a>
+							</article>
 						</div>
+
+				</div>
+			</section>
+
+		<!-- Contact -->
+			<section id="contact" class="main style3 secondary">
+				<div class="content">
+					<header>
+						<h2>Contact</h2>
+					</header>
+					<div class="box">
+						<i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Atlanta, GA<br>
+						<i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Phone: 678-602-1913<br>
+						<i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email: Collard.aj@gmail.com<br>
+						<br><a href="https://twitter.com/arthurj_art?ref_src=twsrc%5Etfw" class="twitter-follow-button" data-size="large" data-lang="en" data-show-count="false">Follow @arthurj_art</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+						<br><a id="resume_button" href="Resume/Resume.html"><button type="button" class="btn btn-dark">My Resume</button></a>
 					</div>
 				</div>
-			</div>
-		</section>
-		<section>
-			<div id="contact" class="container">
-				<div class="row">
-					<div class="col-lg-10 col-lg-offset-1 text-center">
-						<h4><strong>Collard, Arthur</strong>
-						</h4>
-						<ul class="list-unstyled">
-							<li><i class="fa fa-phone fa-fw"></i> 678-602-1913</li>
-							<li><i class="fas fa-envelope"></i> <a href="mailto:collard.aj@gmail.com">collard.aj@gmail.com</a>
-							</li>
-						</ul>
-						<br>
-						<ul class="list-inline">
-							<li>
-								<a href="https://www.linkedin.com/in/arthur-collard/"><i color="white" class="fab fa-linkedin fa-3x"></i></a>
-							</li>
-							<li>
-								<a href="https://github.com/arthurCollard"><i color="white" class="fab fa-github-square fa-3x"></i></a>
-							</li>
-							<li>
-								<a href="https://www.facebook.com/dundermiflin"><i color="white" class="fab fa-facebook-square fa-3x"></i></a>
-							</li>
-						</ul>
-					</div>
-				</div>
-			</div>
-		</section>
+			</section>
+
+		<!-- Footer -->
+			<footer id="footer">
+
+				<!-- Icons -->
+					<ul class="actions">
+						<li><a href="https://github.com/arthurCollard" class="icon fa-github"><span class="label">GitHub</span></a></li>
+						<li><a href="https://www.facebook.com/dundermiflin" class="icon fa-facebook"><span class="label">Facebook</span></a></li>
+						<li><a href="https://www.linkedin.com/in/arthur-collard/" class="icon fa-linkedin"><span class="label">LinkedIn</span></a></li>
+
+					</ul>
+
+			</footer>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.poptrox.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/skel.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<!--[if lte IE 8]><script src="assets/js/ie/respond.min.js"></script><![endif]-->
+			<script src="assets/js/main.js"></script>
+
 	</body>
-</HTML>
+</html>

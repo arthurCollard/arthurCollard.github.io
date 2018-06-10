@@ -6,7 +6,7 @@ body {
 #myCarousel {
 	height: 100%;
 	color: #2d6630;
-
+	float: bottom;
 }
 
 .inner_car {
@@ -14,6 +14,7 @@ body {
 	height: 100%;
 	max-height: 200px;
 }
+
 
 .circle_bord{
 	border: red;
@@ -150,8 +151,12 @@ body {
 
 #left {
 	min-height : 100%;
+	display: flex;
+	height: 100%;
 }
 
 #right {
 	min-height : 100%;
+	display: flex;
+	height: 100%;
 }
