@@ -2121,7 +2121,7 @@
 /* Intro */
 
 	#intro {
-		background: url("images/overlay.png"), url("../../images/AJ_and_Bridge.jpg");
+		background: url("images/overlay.png"), url("../../images/AJ_and_bridge.jpg");
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, bottom center;
@@ -2140,7 +2140,7 @@
 /* Two */
 
 	#two {
-		background: url("images/overlay.png"), url("../../images/Terry.jpg");
+		background: url("images/overlay.png"), url("../../images/terry.jpg");
 		background-size: 256px 256px, cover;
 		background-attachment: fixed, fixed;
 		background-position: top left, center center;
